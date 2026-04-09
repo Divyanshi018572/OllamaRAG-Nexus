@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data & Vectorstore
+data/vectorstore/
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Streamlit
+.streamlit/
+static/
+
+# IDE
+.idea/
+.vscode/
+*.swp
